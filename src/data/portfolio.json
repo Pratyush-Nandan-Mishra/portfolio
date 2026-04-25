@@ -1,0 +1,199 @@
+{
+  "personal": {
+    "name": "Pratyush Nandan Mishra",
+    "role": "Backend & DevOps Engineer",
+    "tagline": "Building scalable backends and cloud-native systems",
+    "bio": "I'm a passionate Backend & DevOps engineer who loves building reliable, scalable systems. I work with cloud infrastructure, container orchestration, and CI/CD pipelines to help teams ship faster and more confidently.",
+    "availableForWork": true,
+    "location": "India"
+  },
+  "socials": {
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourusername",
+    "email": "pratyushmishra82160@gmail.com",
+    "medium": "https://medium.com/@yourusername"
+  },
+  "skills": [
+    {
+      "category": "Cloud",
+      "items": [
+        "AWS",
+        "GCP",
+        "Azure",
+        "DigitalOcean"
+      ]
+    },
+    {
+      "category": "Containers",
+      "items": [
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Podman"
+      ]
+    },
+    {
+      "category": "CI/CD",
+      "items": [
+        "GitHub Actions",
+        "Jenkins",
+        "GitLab CI",
+        "ArgoCD"
+      ]
+    },
+    {
+      "category": "IaC",
+      "items": [
+        "Terraform",
+        "Ansible",
+        "Pulumi"
+      ]
+    },
+    {
+      "category": "Monitoring",
+      "items": [
+        "Prometheus",
+        "Grafana",
+        "Datadog"
+      ]
+    },
+    {
+      "category": "Languages",
+      "items": [
+        "Python",
+        "Go",
+        "Bash",
+        "TypeScript"
+      ]
+    }
+  ],
+  "techLogos": [
+    {
+      "name": "AWS",
+      "logo": "https://cdn.simpleicons.org/aws/white"
+    },
+    {
+      "name": "Docker",
+      "logo": "https://cdn.simpleicons.org/docker/white"
+    },
+    {
+      "name": "Kubernetes",
+      "logo": "https://cdn.simpleicons.org/kubernetes/white"
+    },
+    {
+      "name": "Terraform",
+      "logo": "https://cdn.simpleicons.org/terraform/white"
+    },
+    {
+      "name": "Python",
+      "logo": "https://cdn.simpleicons.org/python/white"
+    },
+    {
+      "name": "GitHub Actions",
+      "logo": "https://cdn.simpleicons.org/githubactions/white"
+    },
+    {
+      "name": "Prometheus",
+      "logo": "https://cdn.simpleicons.org/prometheus/white"
+    },
+    {
+      "name": "Grafana",
+      "logo": "https://cdn.simpleicons.org/grafana/white"
+    },
+    {
+      "name": "Helm",
+      "logo": "https://cdn.simpleicons.org/helm/white"
+    },
+    {
+      "name": "Ansible",
+      "logo": "https://cdn.simpleicons.org/ansible/white"
+    },
+    {
+      "name": "Linux",
+      "logo": "https://cdn.simpleicons.org/linux/white"
+    },
+    {
+      "name": "Go",
+      "logo": "https://cdn.simpleicons.org/go/white"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Kubernetes Auto-Scaler",
+      "description": "Built a custom Kubernetes operator that automatically scales deployments based on custom business metrics, reducing infrastructure costs significantly.",
+      "technologies": [
+        "Kubernetes",
+        "Go",
+        "Prometheus",
+        "Helm"
+      ],
+      "link": "https://github.com/yourusername/k8s-autoscaler",
+      "image": "",
+      "highlights": [
+        "Reduced infrastructure costs by 40%",
+        "Handles custom business metrics via Prometheus adapter",
+        "Deployed across 3 production clusters with zero downtime"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "CI/CD Pipeline Framework",
+      "description": "Designed and implemented a reusable CI/CD pipeline framework using GitHub Actions that standardized deployments across 15+ microservices.",
+      "technologies": [
+        "GitHub Actions",
+        "Docker",
+        "Terraform",
+        "AWS"
+      ],
+      "link": "https://github.com/yourusername/cicd-framework",
+      "image": "",
+      "highlights": [
+        "Reduced deployment time by 70%",
+        "Standardized pipelines across 15+ microservices",
+        "Built-in rollback and canary deployment support"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Infrastructure Monitoring Stack",
+      "description": "Deployed a full observability stack with Prometheus, Grafana, and Loki for a production environment handling millions of requests per day.",
+      "technologies": [
+        "Prometheus",
+        "Grafana",
+        "Loki",
+        "Kubernetes"
+      ],
+      "link": "https://github.com/yourusername/monitoring-stack",
+      "image": "",
+      "highlights": [
+        "Improved incident detection time by 60%",
+        "Processes over 1M metric data points per minute",
+        "Custom Grafana dashboards for 8 engineering teams"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "title": "Building a Production-Grade Kubernetes Cluster from Scratch",
+      "url": "https://medium.com/@yourusername/article-1",
+      "platform": "Medium",
+      "date": "2024-03-15",
+      "readTime": "8 min read"
+    },
+    {
+      "title": "Terraform Best Practices for Large Teams",
+      "url": "https://medium.com/@yourusername/article-2",
+      "platform": "Medium",
+      "date": "2024-02-10",
+      "readTime": "6 min read"
+    },
+    {
+      "title": "GitHub Actions: Beyond the Basics",
+      "url": "https://medium.com/@yourusername/article-3",
+      "platform": "Medium",
+      "date": "2024-01-20",
+      "readTime": "10 min read"
+    }
+  ]
+}
