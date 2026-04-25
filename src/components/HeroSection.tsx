@@ -3,7 +3,6 @@ interface PersonalData {
   role: string;
   tagline: string;
   bio: string;
-  location: string;
   availableForWork: boolean;
 }
 
@@ -23,7 +22,7 @@ export default function HeroSection({ data, socials }: Props) {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20"
+      className="min-h-[calc(100vh-130px)] flex flex-col items-center justify-center text-center px-6 pt-20"
     >
       {data.availableForWork && (
         <div className="mb-6 flex items-center gap-2 bg-cyan-950/40 border border-cyan-800/50 rounded-full px-4 py-1.5 text-sm text-cyan-400">
@@ -40,16 +39,8 @@ export default function HeroSection({ data, socials }: Props) {
         {data.role}
       </p>
 
-      <p className="text-gray-400 text-lg max-w-xl mb-3">
+      <p className="text-gray-400 text-lg max-w-xl mb-10">
         {data.tagline}
-      </p>
-
-      <p className="text-gray-600 text-sm mb-10 flex items-center gap-1">
-        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-        </svg>
-        {data.location}
       </p>
 
       <div className="flex flex-wrap items-center justify-center gap-4 mb-12">

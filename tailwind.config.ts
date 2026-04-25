@@ -7,12 +7,21 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        accent: "#22d3ee",
+  extend: {
+    colors: {
+      accent: "#22d3ee",
+    },
+    animation: {
+      'scroll-left': 'scrollLeft 30s linear infinite',
+    },
+    keyframes: {
+      scrollLeft: {
+        '0%':   { transform: 'translateX(0)' },
+        '100%': { transform: 'translateX(-50%)' },
       },
     },
   },
+},
   plugins: [],
 };
 

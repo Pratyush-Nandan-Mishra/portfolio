@@ -10,6 +10,7 @@ import Footer from '@/components/Footer';
 import BackgroundLogos from '@/components/BackgroundLogos';
 import AboutSection from '@/components/AboutSection';
 import portfolioData from '@/data/portfolio.json';
+import LogoStrip from "@/components/LogoStrip";
 
 export default function Home() {
   const [scrollY, setScrollY] = useState(0);
@@ -30,11 +31,13 @@ export default function Home() {
       <main className="relative z-10">
         <HeroSection data={portfolioData.personal} socials={portfolioData.socials} />
 
+        <LogoStrip />
+
         <AboutSection skills={portfolioData.skills} personalData={portfolioData.personal} />
 
         <ProjectsSection projects={portfolioData.projects} />
 
-        <ArticlesSection articles={portfolioData.articles} mediumUrl={portfolioData.socials.medium} />
+        <ArticlesSection articles={portfolioData.articles} />
 
         <ContactSection personalData={portfolioData.personal} socials={portfolioData.socials} />
       </main>

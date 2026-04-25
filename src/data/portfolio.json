@@ -1,135 +1,74 @@
 {
   "personal": {
     "name": "Pratyush Nandan Mishra",
-    "role": "Backend & DevOps Engineer",
+    "role": "Cloud & DevOps Engineer",
     "tagline": "Building scalable backends and cloud-native systems",
-    "bio": "I'm a passionate Backend & DevOps engineer who loves building reliable, scalable systems. I work with cloud infrastructure, container orchestration, and CI/CD pipelines to help teams ship faster and more confidently.",
-    "availableForWork": true,
-    "location": "India"
+    "bio": "I'm a passionate Backend & DevOps engineer who loves building reliable, scalable systems. I work with cloud infrastructure, container orchestration, and CI/CD pipelines to help teams ship faster and more confidently. Beyond infra, I enjoy crafting clean backend APIs and integrating GenAI capabilities into production workflows. I believe great engineering is invisible — when the systems just work, the teams move faster.",
+    "availableForWork": true
   },
   "socials": {
-    "github": "https://github.com/yourusername",
-    "linkedin": "https://linkedin.com/in/yourusername",
+    "github": "https://github.com/Pratyush-Nandan-Mishra",
+    "linkedin": "https://www.linkedin.com/in/pratyush-nandan-mishra-826a121b8/",
     "email": "pratyushmishra82160@gmail.com",
-    "medium": "https://medium.com/@yourusername"
+    "medium": "https://medium.com/@Pratyushmishra"
   },
   "skills": [
     {
       "category": "Cloud",
-      "items": [
-        "AWS",
-        "GCP",
-        "Azure",
-        "DigitalOcean"
-      ]
+      "items": ["AWS", "GCP", "Azure"]
     },
     {
       "category": "Containers",
-      "items": [
-        "Docker",
-        "Kubernetes",
-        "Helm",
-        "Podman"
-      ]
+      "items": ["Docker", "Kubernetes", "Helm", "Podman"]
     },
     {
       "category": "CI/CD",
-      "items": [
-        "GitHub Actions",
-        "Jenkins",
-        "GitLab CI",
-        "ArgoCD"
-      ]
+      "items": ["GitHub Actions", "Jenkins", "GitLab CI", "ArgoCD"]
     },
     {
       "category": "IaC",
-      "items": [
-        "Terraform",
-        "Ansible",
-        "Pulumi"
-      ]
+      "items": ["Terraform", "Ansible"]
     },
     {
       "category": "Monitoring",
-      "items": [
-        "Prometheus",
-        "Grafana",
-        "Datadog"
-      ]
+      "items": ["Prometheus", "Grafana", "Datadog"]
     },
     {
       "category": "Languages",
-      "items": [
-        "Python",
-        "Go",
-        "Bash",
-        "TypeScript"
-      ]
+      "items": ["Python", "Go", "Bash", "TypeScript", "C", "C++", "Java"]
+    },
+    {
+      "category": "Backend",
+      "items": ["NestJS", "ExpressJS", "Supabase"]
+    },
+    {
+      "category": "GenAI",
+      "items": ["LangChain", "HuggingFace", "Ollama"]
     }
   ],
   "techLogos": [
-    {
-      "name": "AWS",
-      "logo": "https://cdn.simpleicons.org/aws/white"
-    },
-    {
-      "name": "Docker",
-      "logo": "https://cdn.simpleicons.org/docker/white"
-    },
-    {
-      "name": "Kubernetes",
-      "logo": "https://cdn.simpleicons.org/kubernetes/white"
-    },
-    {
-      "name": "Terraform",
-      "logo": "https://cdn.simpleicons.org/terraform/white"
-    },
-    {
-      "name": "Python",
-      "logo": "https://cdn.simpleicons.org/python/white"
-    },
-    {
-      "name": "GitHub Actions",
-      "logo": "https://cdn.simpleicons.org/githubactions/white"
-    },
-    {
-      "name": "Prometheus",
-      "logo": "https://cdn.simpleicons.org/prometheus/white"
-    },
-    {
-      "name": "Grafana",
-      "logo": "https://cdn.simpleicons.org/grafana/white"
-    },
-    {
-      "name": "Helm",
-      "logo": "https://cdn.simpleicons.org/helm/white"
-    },
-    {
-      "name": "Ansible",
-      "logo": "https://cdn.simpleicons.org/ansible/white"
-    },
-    {
-      "name": "Linux",
-      "logo": "https://cdn.simpleicons.org/linux/white"
-    },
-    {
-      "name": "Go",
-      "logo": "https://cdn.simpleicons.org/go/white"
-    }
+    { "name": "AWS",            "logo": "/logos/Amazon_Web_Services_Logo.svg.png" },
+    { "name": "Docker",         "logo": "https://cdn.simpleicons.org/docker/white" },
+    { "name": "Kubernetes",     "logo": "https://cdn.simpleicons.org/kubernetes/white" },
+    { "name": "Terraform",      "logo": "https://cdn.simpleicons.org/terraform/white" },
+    { "name": "Python",         "logo": "https://cdn.simpleicons.org/python/white" },
+    { "name": "GitHub Actions", "logo": "https://cdn.simpleicons.org/githubactions/white" },
+    { "name": "Prometheus",     "logo": "https://cdn.simpleicons.org/prometheus/white" },
+    { "name": "Grafana",        "logo": "https://cdn.simpleicons.org/grafana/white" },
+    { "name": "Helm",           "logo": "https://cdn.simpleicons.org/helm/white" },
+    { "name": "Ansible",        "logo": "https://cdn.simpleicons.org/ansible/white" },
+    { "name": "Linux",          "logo": "https://cdn.simpleicons.org/linux/white" },
+    { "name": "Go",             "logo": "https://cdn.simpleicons.org/go/white" },
+    { "name": "Go",             "logo": "https://cdn.simpleicons.org/go/white" }
   ],
   "projects": [
     {
       "id": 1,
       "title": "Kubernetes Auto-Scaler",
       "description": "Built a custom Kubernetes operator that automatically scales deployments based on custom business metrics, reducing infrastructure costs significantly.",
-      "technologies": [
-        "Kubernetes",
-        "Go",
-        "Prometheus",
-        "Helm"
-      ],
-      "link": "https://github.com/yourusername/k8s-autoscaler",
-      "image": "",
+      "technologies": ["Kubernetes", "Go", "Prometheus", "Helm"],
+      "link": "https://github.com/Pratyush-Nandan-Mishra",
+      "image": "/images/image1.jpg",
       "highlights": [
         "Reduced infrastructure costs by 40%",
         "Handles custom business metrics via Prometheus adapter",
@@ -140,14 +79,9 @@
       "id": 2,
       "title": "CI/CD Pipeline Framework",
       "description": "Designed and implemented a reusable CI/CD pipeline framework using GitHub Actions that standardized deployments across 15+ microservices.",
-      "technologies": [
-        "GitHub Actions",
-        "Docker",
-        "Terraform",
-        "AWS"
-      ],
-      "link": "https://github.com/yourusername/cicd-framework",
-      "image": "",
+      "technologies": ["GitHub Actions", "Docker", "Terraform", "AWS"],
+      "link": "https://github.com/Pratyush-Nandan-Mishra",
+      "image": "/images/image2.webp",
       "highlights": [
         "Reduced deployment time by 70%",
         "Standardized pipelines across 15+ microservices",
@@ -158,14 +92,9 @@
       "id": 3,
       "title": "Infrastructure Monitoring Stack",
       "description": "Deployed a full observability stack with Prometheus, Grafana, and Loki for a production environment handling millions of requests per day.",
-      "technologies": [
-        "Prometheus",
-        "Grafana",
-        "Loki",
-        "Kubernetes"
-      ],
-      "link": "https://github.com/yourusername/monitoring-stack",
-      "image": "",
+      "technologies": ["Prometheus", "Grafana", "Loki", "Kubernetes"],
+      "link": "https://github.com/Pratyush-Nandan-Mishra",
+      "image": "/images/image3.png",
       "highlights": [
         "Improved incident detection time by 60%",
         "Processes over 1M metric data points per minute",
@@ -194,6 +123,27 @@
       "platform": "Medium",
       "date": "2024-01-20",
       "readTime": "10 min read"
+    },
+    {
+      "title": "Observability at Scale: Prometheus & Grafana in Production",
+      "url": "https://medium.com/@yourusername/article-4",
+      "platform": "Medium",
+      "date": "2023-12-05",
+      "readTime": "7 min read"
+    },
+    {
+      "title": "ArgoCD and GitOps: The Right Way to Deploy",
+      "url": "https://medium.com/@yourusername/article-5",
+      "platform": "Medium",
+      "date": "2023-11-18",
+      "readTime": "9 min read"
+    },
+    {
+      "title": "Writing Kubernetes Operators with Go",
+      "url": "https://medium.com/@yourusername/article-6",
+      "platform": "Medium",
+      "date": "2023-10-02",
+      "readTime": "12 min read"
     }
   ]
 }

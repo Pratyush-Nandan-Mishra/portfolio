@@ -3,7 +3,6 @@ interface PersonalData {
   role: string;
   tagline: string;
   bio: string;
-  location: string;
   availableForWork: boolean;
 }
 

@@ -30,18 +30,18 @@ export default function Navigation() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a
           href="#home"
-          className="text-white font-bold text-lg tracking-tight hover:text-cyan-400 transition-colors"
+          className="text-cyan-400 font-bold text-xl tracking-tight hover:text-cyan-300 transition-colors"
         >
-          &lt;YourName /&gt;
+          Pratyush
         </a>
 
         {/* Desktop links */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-10">
           {navLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="text-gray-400 hover:text-cyan-400 text-sm font-medium transition-colors"
+              className="text-gray-400 hover:text-cyan-400 text-base font-medium transition-colors"
             >
               {link.label}
             </a>
@@ -72,7 +72,7 @@ export default function Navigation() {
               key={link.href}
               href={link.href}
               onClick={() => setMenuOpen(false)}
-              className="text-gray-400 hover:text-cyan-400 text-sm font-medium transition-colors"
+              className="text-gray-400 hover:text-cyan-400 text-base font-medium transition-colors"
             >
               {link.label}
             </a>
